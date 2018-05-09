@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+
+body{
+	font: 16px Arial, Helvetica, sans-serif;
+ 	 height: 100%;
+ 	 margin:0;
+}
+
+/****Structure****/
+a:link{
+	text-decoration: none;
+	color: black;
+}
+.nav a:hover {
+	text-decoration: underline;
+	text-decoration-color: #BFC0C5;
+}
+a:visited{
+  color: inherit;
+}
+
+.logo{
+	max-width: 100%;
+
+}
+.nav{
+	color: #98DB4B;
+    list-style:none;
+    margin:0;
+    padding:0;
+	text-align:right;
+    z-index: 1;
+    border-bottom-style: solid;
+	border-color: #98DB4B;
+	background-color: #080808;
+	font-family: 'Montserrat', sans-serif;
+	}
+.nav li{
+    display:inline;
+	font-size: 20px;
+}
+.nav a{
+    display:inline-block;
+	padding: 10px 100px 10px 0px;
+	color: #98DB4B;
+}
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+}
+h2{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-family: 'Lato', sans-serif;
+}
+
+/**home page **/
+#about{
+	position:relative;
+	color: black;
+	background-color:#E2E2E2;
+	text-align:center;
+	padding:50px 80px;
+	text-align: justify;
+}
+.left-column{
+	margin-left: 200px;
+ display: inline-block;
+ 
+}
+.right-column{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 100px;
+	text-align: center;
+	max-width: 470px;
+}
+
+.right-column h2{
+	font-size: 30px;
+}
+.right-column h5{
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 0;
+
+}
+.right-column p{
+	font-size: 22px;
+	color: #999999;
+}
+.button{
+	margin-top: 2px;
+}
+a.button{
+	padding: 1em 1.75em;
+    background: none;
+    border: 1px Solid #222;
+    transition: all 0.3s ease-in-out;
+}
+a.button:hover{
+	background: #98DB4B;
+}
+
+.bgimg-2 .left-column{
+	color: white;
+ width: 25%;
+ position: relative;
+ float: left;
+ background: rgba(0,0,0,0.7);
+ padding: 30px 20px;
+ text-align: center;
+}
+.bgimg-2 .left-column p{
+	font-size: 18px;
+	line-height: 10px;
+}
+.bgimg-2 .row{
+	width: 100%;
+	position: absolute;
+	top: 30%;
+	margin: 0 auto;
+}
+.bgimg-2 a.button{
+	border: 1px Solid white;
+
+}
+#faq{
+	color: #777;
+	background-color:#E2E2E2;
+	text-align:center;
+	padding:50px 80px;
+	text-align: justify;
+}
+
+.center-column{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-left: 30%;
+}
+
+.center-column h2{
+	font-size: 30px;
+}
+.center-column h5{
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 0;
+
+}
+.center-column p{
+	font-size: 22px;
+	color: #999999;
+}
+
+.bgimg-3 .center-column{
+	color: white;
+ width: 25%;
+ position: relative;
+ float: left;
+ background: rgba(0,0,0,0.7);
+ padding: 30px 20px;
+ text-align: center;
+ margin-left: 35%;
+}
+.bgimg-3 .center-column p{
+	font-size: 18px;
+	
+}
+.bgimg-3 .row{
+	width: 100%;
+	position: absolute;
+	top: 30%;
+	margin: 0 auto;
+}
+.bgimg-3 a.button{
+	border: 1px Solid white;
+
+}
+#footer{
+	color: #777;
+	background-color:#E2E2E2;
+	text-align:center;
+	padding:50px 80px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+/**about page**/
+.pageBanner{
+	top: 47px;
+	margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+	background: url("../img/headline2.jpg") center center;
+}
+.smLogo{
+	padding-top: 2.5%;
+	padding-left: 14%;
+	display: inline-block;
+}
+.pageTitle{
+	font-size: 26px;
+	color: white;
+	float: right;
+	display: inline-block;
+	padding-right: 17%;
+	padding-top: 8%;
+	text-shadow: 4px 4px 2px black;
+}
+.content{
+	padding-left: 12%;
+	padding-right: 12%;
+}
+.content h3{
+	font-size: 24px;
+	color: #98DB4B;
+}
+#subPage{
+	line-height: 1.5;
+	padding:50px 80px;
+	background: #080808;
+	color: white;
+}
+
+#subPage-shop{
+	line-height: 1.5;
+	padding:50px 80px;
+	background: #fff;
+}
+/**Contact***/
+#contact{
+ text-align: center;
+}
+.connect {
+  background-color: white;
+  text-align: center;
+  padding: 1em 5em;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #fff;
+
+}
+.connect:hover {
+  background-color: #BFC0C5;
+  color: #000;
+  text-decoration: none;
+}
+
+
+.connectlink{color:white;}
+.connectlink:hover{
+  text-decoration: underline;
+  text-decoration-color: #BFC0C5;}
+
+.line {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.25);
+  width: 71px;
+  display: block;
+  clear: both;
+  margin: 20px auto;
+}
